@@ -21,6 +21,7 @@
 		32ABEDDD187EFA4F00D4E980 /* TRVSPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ABEDDB187EFA4F00D4E980 /* TRVSPreferences.m */; };
 		32D2236C187C28E1008D12A3 /* clang-format in Resources */ = {isa = PBXBuildFile; fileRef = 32D2236B187C28E1008D12A3 /* clang-format */; };
 		32F745E418823A57007541E1 /* NSDocument+TRVSClangFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F745E318823A57007541E1 /* NSDocument+TRVSClangFormat.m */; };
+		931745801AADA0DA00255280 /* Hipster.m in Sources */ = {isa = PBXBuildFile; fileRef = 9317457E1AADA0DA00255280 /* Hipster.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		32D2236B187C28E1008D12A3 /* clang-format */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "clang-format"; path = "bin/clang-format"; sourceTree = SOURCE_ROOT; };
 		32F745E218823A57007541E1 /* NSDocument+TRVSClangFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDocument+TRVSClangFormat.h"; sourceTree = "<group>"; };
 		32F745E318823A57007541E1 /* NSDocument+TRVSClangFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDocument+TRVSClangFormat.m"; sourceTree = "<group>"; };
+		9317457E1AADA0DA00255280 /* Hipster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hipster.m; sourceTree = "<group>"; };
+		9317457F1AADA0DA00255280 /* Hipster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hipster.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,19 +105,21 @@
 		32A57EE9187C05A4002DEC9D /* ClangFormat */ = {
 			isa = PBXGroup;
 			children = (
+				9317457F1AADA0DA00255280 /* Hipster.h */,
+				9317457E1AADA0DA00255280 /* Hipster.m */,
+				32F745E218823A57007541E1 /* NSDocument+TRVSClangFormat.h */,
+				32F745E318823A57007541E1 /* NSDocument+TRVSClangFormat.m */,
+				32A57EEA187C05A4002DEC9D /* Supporting Files */,
 				32A57EEF187C05A4002DEC9D /* TRVSClangFormat.h */,
 				32A57EF0187C05A4002DEC9D /* TRVSClangFormat.m */,
-				32ABEDD8187EFA4F00D4E980 /* TRVSFormatter.h */,
-				32ABEDD9187EFA4F00D4E980 /* TRVSFormatter.m */,
 				3228E443187F200D0037DECF /* TRVSCodeFragment.h */,
 				3228E444187F200D0037DECF /* TRVSCodeFragment.m */,
+				32ABEDD8187EFA4F00D4E980 /* TRVSFormatter.h */,
+				32ABEDD9187EFA4F00D4E980 /* TRVSFormatter.m */,
 				32ABEDDA187EFA4F00D4E980 /* TRVSPreferences.h */,
 				32ABEDDB187EFA4F00D4E980 /* TRVSPreferences.m */,
 				32ABEDC8187EF90500D4E980 /* TRVSXcode.h */,
 				32ABEDC9187EF90500D4E980 /* TRVSXcode.m */,
-				32F745E218823A57007541E1 /* NSDocument+TRVSClangFormat.h */,
-				32F745E318823A57007541E1 /* NSDocument+TRVSClangFormat.m */,
-				32A57EEA187C05A4002DEC9D /* Supporting Files */,
 			);
 			path = ClangFormat;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931745801AADA0DA00255280 /* Hipster.m in Sources */,
 				32A57EF1187C05A4002DEC9D /* TRVSClangFormat.m in Sources */,
 				3228E445187F200D0037DECF /* TRVSCodeFragment.m in Sources */,
 				32ABEDDC187EFA4F00D4E980 /* TRVSFormatter.m in Sources */,

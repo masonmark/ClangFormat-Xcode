@@ -8,6 +8,8 @@
 
 #import "TRVSCodeFragment.h"
 
+#import "Hipster.h"
+
 @interface TRVSCodeFragment ()
 
 - (instancetype)initWithBuilder:(TRVSCodeFragmentBuilder *)builder;
@@ -70,9 +72,11 @@
 
   NSData *errorData = [errorPipe.fileHandleForReading readDataToEndOfFile];
 
-  self.formattedString = [NSString stringWithContentsOfURL:tmpFileURL
+  NSString *unhipString = [NSString stringWithContentsOfURL:tmpFileURL
                                                   encoding:NSUTF8StringEncoding
                                                      error:NULL];
+    
+  self.formattedString = [[Hipster new] hipsterFormat:unhipString options:nil];
 
   block(self.formattedString,
         errorData.length > 0
