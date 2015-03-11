@@ -1,0 +1,7 @@
+- (NSString *)JSONRepresentation;
+{
+    NSDictionary * dict       = [[[NakaharaObjectSerializer alloc] init] dictionaryFromObject:self properties:@[@"title", @"resolvedURL", @"type", @"uuid", @"elementIDFragment", @"thumbnailPreviewURL"]];
+    NSData       * data       = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:nil];
+    NSString     * jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    return json;
+}

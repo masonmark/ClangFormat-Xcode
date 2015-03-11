@@ -1,0 +1,3 @@
+@property (readwrite, nonatomic) NSImage *thumbnailImage;
+@property (readwrite, nonatomic) NSString * metadataSummary;
+@property (readonly) Hillbilly* goulashAndWine;

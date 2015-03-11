@@ -21,7 +21,12 @@
 		32ABEDDD187EFA4F00D4E980 /* TRVSPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ABEDDB187EFA4F00D4E980 /* TRVSPreferences.m */; };
 		32D2236C187C28E1008D12A3 /* clang-format in Resources */ = {isa = PBXBuildFile; fileRef = 32D2236B187C28E1008D12A3 /* clang-format */; };
 		32F745E418823A57007541E1 /* NSDocument+TRVSClangFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F745E318823A57007541E1 /* NSDocument+TRVSClangFormat.m */; };
-		93DC21AB1AAFD8DE00F7D4CB /* Hipster.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC21AA1AAFD8DE00F7D4CB /* Hipster.m */; };
+		9329DFBB1AB0235100E0C473 /* method-with-assignments.input in Resources */ = {isa = PBXBuildFile; fileRef = 9329DFB71AB0235100E0C473 /* method-with-assignments.input */; };
+		9329DFBC1AB0235100E0C473 /* method-with-assignments.output in Resources */ = {isa = PBXBuildFile; fileRef = 9329DFB81AB0235100E0C473 /* method-with-assignments.output */; };
+		9329DFBD1AB0235100E0C473 /* property-declaration.input in Resources */ = {isa = PBXBuildFile; fileRef = 9329DFB91AB0235100E0C473 /* property-declaration.input */; };
+		9329DFBE1AB0235100E0C473 /* property-declaration.output in Resources */ = {isa = PBXBuildFile; fileRef = 9329DFBA1AB0235100E0C473 /* property-declaration.output */; };
+		9329DFBF1AB027D000E0C473 /* Hipster.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC21AA1AAFD8DE00F7D4CB /* Hipster.m */; };
+		9329DFC01AB027D600E0C473 /* Hipster.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC21AA1AAFD8DE00F7D4CB /* Hipster.m */; };
 		93DC21B81AAFDAD400F7D4CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC21B71AAFDAD400F7D4CB /* main.m */; };
 		93DC21BA1AAFDAD400F7D4CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DC21B91AAFDAD400F7D4CB /* Images.xcassets */; };
 		93DC21BD1AAFDAD400F7D4CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DC21BB1AAFDAD400F7D4CB /* MainMenu.xib */; };
@@ -63,6 +68,10 @@
 		32D2236B187C28E1008D12A3 /* clang-format */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "clang-format"; path = "bin/clang-format"; sourceTree = SOURCE_ROOT; };
 		32F745E218823A57007541E1 /* NSDocument+TRVSClangFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDocument+TRVSClangFormat.h"; sourceTree = "<group>"; };
 		32F745E318823A57007541E1 /* NSDocument+TRVSClangFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDocument+TRVSClangFormat.m"; sourceTree = "<group>"; };
+		9329DFB71AB0235100E0C473 /* method-with-assignments.input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "method-with-assignments.input"; sourceTree = "<group>"; };
+		9329DFB81AB0235100E0C473 /* method-with-assignments.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "method-with-assignments.output"; sourceTree = "<group>"; };
+		9329DFB91AB0235100E0C473 /* property-declaration.input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "property-declaration.input"; sourceTree = "<group>"; };
+		9329DFBA1AB0235100E0C473 /* property-declaration.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "property-declaration.output"; sourceTree = "<group>"; };
 		93DC21A91AAFD8DE00F7D4CB /* Hipster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hipster.h; sourceTree = "<group>"; };
 		93DC21AA1AAFD8DE00F7D4CB /* Hipster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hipster.m; sourceTree = "<group>"; };
 		93DC21B01AAFDAD400F7D4CB /* HipsterTestHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HipsterTestHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +182,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9329DFB61AB0235100E0C473 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				9329DFB71AB0235100E0C473 /* method-with-assignments.input */,
+				9329DFB81AB0235100E0C473 /* method-with-assignments.output */,
+				9329DFB91AB0235100E0C473 /* property-declaration.input */,
+				9329DFBA1AB0235100E0C473 /* property-declaration.output */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
 		93DC21A81AAFD8DE00F7D4CB /* Hipster */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +216,7 @@
 		93DC21C51AAFDAD400F7D4CB /* HipsterTests */ = {
 			isa = PBXGroup;
 			children = (
+				9329DFB61AB0235100E0C473 /* Fixtures */,
 				93DC21C71AAFDAD400F7D4CB /* Info.plist */,
 				93DC21C81AAFDAD400F7D4CB /* HipsterTests.m */,
 			);
@@ -318,6 +339,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9329DFBC1AB0235100E0C473 /* method-with-assignments.output in Resources */,
+				9329DFBD1AB0235100E0C473 /* property-declaration.input in Resources */,
+				9329DFBE1AB0235100E0C473 /* property-declaration.output in Resources */,
+				9329DFBB1AB0235100E0C473 /* method-with-assignments.input in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93DC21AB1AAFD8DE00F7D4CB /* Hipster.m in Sources */,
+				9329DFC01AB027D600E0C473 /* Hipster.m in Sources */,
 				32A57EF1187C05A4002DEC9D /* TRVSClangFormat.m in Sources */,
 				3228E445187F200D0037DECF /* TRVSCodeFragment.m in Sources */,
 				32ABEDDC187EFA4F00D4E980 /* TRVSFormatter.m in Sources */,
@@ -343,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93DC21B81AAFDAD400F7D4CB /* main.m in Sources */,
+				9329DFBF1AB027D000E0C473 /* Hipster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
