@@ -21,8 +21,22 @@
 		32ABEDDD187EFA4F00D4E980 /* TRVSPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ABEDDB187EFA4F00D4E980 /* TRVSPreferences.m */; };
 		32D2236C187C28E1008D12A3 /* clang-format in Resources */ = {isa = PBXBuildFile; fileRef = 32D2236B187C28E1008D12A3 /* clang-format */; };
 		32F745E418823A57007541E1 /* NSDocument+TRVSClangFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F745E318823A57007541E1 /* NSDocument+TRVSClangFormat.m */; };
-		931745801AADA0DA00255280 /* Hipster.m in Sources */ = {isa = PBXBuildFile; fileRef = 9317457E1AADA0DA00255280 /* Hipster.m */; };
+		93DC21AB1AAFD8DE00F7D4CB /* Hipster.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC21AA1AAFD8DE00F7D4CB /* Hipster.m */; };
+		93DC21B81AAFDAD400F7D4CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC21B71AAFDAD400F7D4CB /* main.m */; };
+		93DC21BA1AAFDAD400F7D4CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DC21B91AAFDAD400F7D4CB /* Images.xcassets */; };
+		93DC21BD1AAFDAD400F7D4CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DC21BB1AAFDAD400F7D4CB /* MainMenu.xib */; };
+		93DC21C91AAFDAD400F7D4CB /* HipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC21C81AAFDAD400F7D4CB /* HipsterTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93DC21C31AAFDAD400F7D4CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A57EDA187C05A4002DEC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93DC21AF1AAFDAD400F7D4CB;
+			remoteInfo = HipsterTestHost;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		320B996D187C1293003DB7B3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -46,12 +60,19 @@
 		32ABEDD9187EFA4F00D4E980 /* TRVSFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVSFormatter.m; sourceTree = "<group>"; };
 		32ABEDDA187EFA4F00D4E980 /* TRVSPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRVSPreferences.h; sourceTree = "<group>"; };
 		32ABEDDB187EFA4F00D4E980 /* TRVSPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRVSPreferences.m; sourceTree = "<group>"; };
-		32D22368187C28DC008D12A3 /* ClangFormat.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ClangFormat.xcodeproj; sourceTree = SOURCE_ROOT; };
 		32D2236B187C28E1008D12A3 /* clang-format */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "clang-format"; path = "bin/clang-format"; sourceTree = SOURCE_ROOT; };
 		32F745E218823A57007541E1 /* NSDocument+TRVSClangFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDocument+TRVSClangFormat.h"; sourceTree = "<group>"; };
 		32F745E318823A57007541E1 /* NSDocument+TRVSClangFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDocument+TRVSClangFormat.m"; sourceTree = "<group>"; };
-		9317457E1AADA0DA00255280 /* Hipster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hipster.m; sourceTree = "<group>"; };
-		9317457F1AADA0DA00255280 /* Hipster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hipster.h; sourceTree = "<group>"; };
+		93DC21A91AAFD8DE00F7D4CB /* Hipster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hipster.h; sourceTree = "<group>"; };
+		93DC21AA1AAFD8DE00F7D4CB /* Hipster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hipster.m; sourceTree = "<group>"; };
+		93DC21B01AAFDAD400F7D4CB /* HipsterTestHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HipsterTestHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DC21B31AAFDAD400F7D4CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DC21B71AAFDAD400F7D4CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93DC21B91AAFDAD400F7D4CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93DC21BC1AAFDAD400F7D4CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		93DC21C21AAFDAD400F7D4CB /* HipsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HipsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DC21C71AAFDAD400F7D4CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DC21C81AAFDAD400F7D4CB /* HipsterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HipsterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +89,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		93DC21AD1AAFDAD400F7D4CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DC21BF1AAFDAD400F7D4CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,6 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				32A57EE9187C05A4002DEC9D /* ClangFormat */,
+				93DC21A81AAFD8DE00F7D4CB /* Hipster */,
+				93DC21C51AAFDAD400F7D4CB /* HipsterTests */,
+				93DC21B11AAFDAD400F7D4CB /* HipsterTestHost */,
 				32A57EE4187C05A4002DEC9D /* Frameworks */,
 				32A57EE3187C05A4002DEC9D /* Products */,
 			);
@@ -84,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				32A57EE2187C05A4002DEC9D /* ClangFormat.xcplugin */,
+				93DC21B01AAFDAD400F7D4CB /* HipsterTestHost.app */,
+				93DC21C21AAFDAD400F7D4CB /* HipsterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,8 +145,6 @@
 		32A57EE9187C05A4002DEC9D /* ClangFormat */ = {
 			isa = PBXGroup;
 			children = (
-				9317457F1AADA0DA00255280 /* Hipster.h */,
-				9317457E1AADA0DA00255280 /* Hipster.m */,
 				32F745E218823A57007541E1 /* NSDocument+TRVSClangFormat.h */,
 				32F745E318823A57007541E1 /* NSDocument+TRVSClangFormat.m */,
 				32A57EEA187C05A4002DEC9D /* Supporting Files */,
@@ -127,7 +165,6 @@
 		32A57EEA187C05A4002DEC9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				32D22368187C28DC008D12A3 /* ClangFormat.xcodeproj */,
 				32D2236B187C28E1008D12A3 /* clang-format */,
 				32A57EEB187C05A4002DEC9D /* ClangFormat-Info.plist */,
 				32A57EEC187C05A4002DEC9D /* InfoPlist.strings */,
@@ -136,9 +173,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		32D22369187C28DC008D12A3 /* Products */ = {
+		93DC21A81AAFD8DE00F7D4CB /* Hipster */ = {
 			isa = PBXGroup;
-			name = Products;
+			children = (
+				93DC21A91AAFD8DE00F7D4CB /* Hipster.h */,
+				93DC21AA1AAFD8DE00F7D4CB /* Hipster.m */,
+			);
+			path = Hipster;
+			sourceTree = "<group>";
+		};
+		93DC21B11AAFDAD400F7D4CB /* HipsterTestHost */ = {
+			isa = PBXGroup;
+			children = (
+				93DC21B91AAFDAD400F7D4CB /* Images.xcassets */,
+				93DC21B31AAFDAD400F7D4CB /* Info.plist */,
+				93DC21B71AAFDAD400F7D4CB /* main.m */,
+				93DC21BB1AAFDAD400F7D4CB /* MainMenu.xib */,
+			);
+			path = HipsterTestHost;
+			sourceTree = "<group>";
+		};
+		93DC21C51AAFDAD400F7D4CB /* HipsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				93DC21C71AAFDAD400F7D4CB /* Info.plist */,
+				93DC21C81AAFDAD400F7D4CB /* HipsterTests.m */,
+			);
+			path = HipsterTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +222,41 @@
 			productReference = 32A57EE2187C05A4002DEC9D /* ClangFormat.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
+		93DC21AF1AAFDAD400F7D4CB /* HipsterTestHost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DC21CA1AAFDAD400F7D4CB /* Build configuration list for PBXNativeTarget "HipsterTestHost" */;
+			buildPhases = (
+				93DC21AC1AAFDAD400F7D4CB /* Sources */,
+				93DC21AD1AAFDAD400F7D4CB /* Frameworks */,
+				93DC21AE1AAFDAD400F7D4CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HipsterTestHost;
+			productName = HipsterTestHost;
+			productReference = 93DC21B01AAFDAD400F7D4CB /* HipsterTestHost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93DC21C11AAFDAD400F7D4CB /* HipsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DC21CD1AAFDAD400F7D4CB /* Build configuration list for PBXNativeTarget "HipsterTests" */;
+			buildPhases = (
+				93DC21BE1AAFDAD400F7D4CB /* Sources */,
+				93DC21BF1AAFDAD400F7D4CB /* Frameworks */,
+				93DC21C01AAFDAD400F7D4CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93DC21C41AAFDAD400F7D4CB /* PBXTargetDependency */,
+			);
+			name = HipsterTests;
+			productName = HipsterTestHostTests;
+			productReference = 93DC21C21AAFDAD400F7D4CB /* HipsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +265,15 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Travis Jeffery";
+				TargetAttributes = {
+					93DC21AF1AAFDAD400F7D4CB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					93DC21C11AAFDAD400F7D4CB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 93DC21AF1AAFDAD400F7D4CB;
+					};
+				};
 			};
 			buildConfigurationList = 32A57EDD187C05A4002DEC9D /* Build configuration list for PBXProject "ClangFormat" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -176,19 +281,16 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 32A57ED9187C05A4002DEC9D;
 			productRefGroup = 32A57EE3187C05A4002DEC9D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 32D22369187C28DC008D12A3 /* Products */;
-					ProjectRef = 32D22368187C28DC008D12A3 /* ClangFormat.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				32A57EE1187C05A4002DEC9D /* ClangFormat */,
+				93DC21AF1AAFDAD400F7D4CB /* HipsterTestHost */,
+				93DC21C11AAFDAD400F7D4CB /* HipsterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,6 +305,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		93DC21AE1AAFDAD400F7D4CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DC21BA1AAFDAD400F7D4CB /* Images.xcassets in Resources */,
+				93DC21BD1AAFDAD400F7D4CB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DC21C01AAFDAD400F7D4CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -210,7 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931745801AADA0DA00255280 /* Hipster.m in Sources */,
+				93DC21AB1AAFD8DE00F7D4CB /* Hipster.m in Sources */,
 				32A57EF1187C05A4002DEC9D /* TRVSClangFormat.m in Sources */,
 				3228E445187F200D0037DECF /* TRVSCodeFragment.m in Sources */,
 				32ABEDDC187EFA4F00D4E980 /* TRVSFormatter.m in Sources */,
@@ -220,7 +338,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		93DC21AC1AAFDAD400F7D4CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DC21B81AAFDAD400F7D4CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DC21BE1AAFDAD400F7D4CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DC21C91AAFDAD400F7D4CB /* HipsterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93DC21C41AAFDAD400F7D4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93DC21AF1AAFDAD400F7D4CB /* HipsterTestHost */;
+			targetProxy = 93DC21C31AAFDAD400F7D4CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		32A57EEC187C05A4002DEC9D /* InfoPlist.strings */ = {
@@ -229,6 +371,14 @@
 				32A57EED187C05A4002DEC9D /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93DC21BB1AAFDAD400F7D4CB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DC21BC1AAFDAD400F7D4CB /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -352,6 +502,92 @@
 			};
 			name = Release;
 		};
+		93DC21CB1AAFDAD400F7D4CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HipsterTestHost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93DC21CC1AAFDAD400F7D4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = HipsterTestHost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93DC21CE1AAFDAD400F7D4CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HipsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HipsterTestHost.app/Contents/MacOS/HipsterTestHost";
+			};
+			name = Debug;
+		};
+		93DC21CF1AAFDAD400F7D4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HipsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HipsterTestHost.app/Contents/MacOS/HipsterTestHost";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -369,6 +605,24 @@
 			buildConfigurations = (
 				32A57EF6187C05A4002DEC9D /* Debug */,
 				32A57EF7187C05A4002DEC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DC21CA1AAFDAD400F7D4CB /* Build configuration list for PBXNativeTarget "HipsterTestHost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DC21CB1AAFDAD400F7D4CB /* Debug */,
+				93DC21CC1AAFDAD400F7D4CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DC21CD1AAFDAD400F7D4CB /* Build configuration list for PBXNativeTarget "HipsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DC21CE1AAFDAD400F7D4CB /* Debug */,
+				93DC21CF1AAFDAD400F7D4CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
